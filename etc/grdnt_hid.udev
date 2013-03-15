@@ -1,0 +1,4 @@
+# Guardant Sign/Time USB HID
+SUBSYSTEM=="usb", ACTION=="add", KERNEL=="hiddev*", ATTRS{idVendor}=="0a89", ATTRS{idProduct}=="000c", MODE="0666", NAME="grdhid%n"
+# Guardant Code USB HID
+SUBSYSTEM=="usb", ACTION=="add", KERNEL=="hiddev*", ATTRS{idVendor}=="0a89", ATTRS{idProduct}=="000d", MODE="0666", NAME="grdhid%n"

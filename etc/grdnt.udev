@@ -1,0 +1,4 @@
+# Guardant Sign/Time USB
+SUBSYSTEM=="usb", ACTION=="add", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="0a89", ATTRS{idProduct}=="0008", MODE="0666"
+# Guardant Code USB
+SUBSYSTEM=="usb", ACTION=="add", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="0a89", ATTRS{idProduct}=="0009", MODE="0666"
